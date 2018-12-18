@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion versionName="MRMSEI.DEV02" changeDate="2018-09-11">
+
+        <changelogtext>[b]Improved[/b] 优化上传日志显示，若有错误点击可复制当前[]里的内容 </changelogtext>
+
+    </changelogversion>
+
+    <changelogversion versionName="MRMSEI.DEV01" changeDate="2018-9-8">
+
+        <changelogtext>[b]Fixed[/b] 重点表任务钩选问题，未选任务进入时出错的问题</changelogtext>
+        <changelogtext>[b]Fixed[/b] 重点表未选任务或选多个任务查询注意事项问题</changelogtext>
+        <changelogtext>[b]Fixed[/b] 重点表地图浏览“图标”可拖动，可手动刷新</changelogtext>
+        <changelogtext>[b]Fixed[/b] 更新标定状态，“正常标定”弄错</changelogtext>
+
+    </changelogversion>
+
+    <changelogversion versionName="MRMSEI.DEV" changeDate="2018-06-25">
+        <changelogtext> [b]New![/b] 注意事项新增添加图片功能,可在任务、任务单元、楼栋、表组查看当前等级下的注意事项，可通过地图查看</changelogtext>
+        <changelogtext>[b]Improved[/b] 标定新增“异常标定”,终端提供默认异常标定、无法标定备注</changelogtext>
+        <changelogbug>[b]Fixed[/b] 抄表标定，未来验证止码照片</changelogbug>
+
+    </changelogversion>
+
+
+
+    <changelogversion versionName="MRMSEI.1.22.1.180625" changeDate="2018-06-25">
+        <changelogbug>[b]Fixed[/b] 图文编辑删除、复制功能初始状态下无法钩选</changelogbug>
+        <changelogbug>[b]Fixed[/b] 批量标定公共图文无法涂鸦</changelogbug>
+        <changelogtext>[b]Improved[/b] 批量标定，公共属性界面新增图文查看(点击公共图片)</changelogtext>
+        <changelogtext>[b]Fixed[/b] 抄表标定，新拍止码图时才会自动填充至抄表数据(表号图、止码在此基础上有改变才会填充)</changelogtext>
+        <!--<changelogtext>-->
+            <!--[b]New![/b] 标定新增“异常标定”，并默认异常标定、无法标定通用备注模版-->
+        <!--</changelogtext>-->
+        <changelogtext>
+            [b]New![/b] 标定新增“参考表”需要标定权限，通过扫描标签查询的水表（定位、表册、所属结构、图文）复制到当前待标定水表
+        </changelogtext>
+        <changelogtext>[b]Improved[/b] 地图浏览界面“图标”可拖动，刷新返回正常</changelogtext>
+        <changelogtext>[b]Improved[/b] 标定查询-地图浏览，将查询出的结果做为地图浏览数据</changelogtext>
+        <changelogtext>[b]Improved[/b] 涂鸦优化，新增放大镜</changelogtext>
+        <changelogtext>[b]Improved[/b] 开阀、关阀、催费操作界面点击用户编号可复制</changelogtext>
+        <changelogtext> [b]New![/b] 新增临时抄表(在线查询生成抄表数据)</changelogtext>
+        <changelogtext> [b]New![/b] 抄表界面新增： 1、 关阀状态提示(关阀状态为待关阀水表)，并可直接进入关阀  2、上传</changelogtext>
+        <changelogtext> [b]Improved[/b] 催费界面显示增加：欠费金额 </changelogtext>
+        <changelogtext> [b]Improved[/b] 设置界面增加终端版本号 </changelogtext>
+        <changelogtext> [b]Improved[/b] 在线查询新增用户名 </changelogtext>
+    </changelogversion>
+
+
+
+
+
+
+
+
+    <changelogversion versionName="MRMSEI.1.22.1.180625" changeDate="2018-06-25">
+        <changelogtext>
+            [b]New![/b] 新增批量标定功能
+        </changelogtext>
+        <changelogtext>
+            [b]New![/b] 标定界面新增“换表重标”功能(将表号照片、标定止码（或无法抄读）及止码照片、电子身份清除)
+        </changelogtext>
+        <changelogbug>[b]Fixed[/b] 修改催费履历无法查看图片</changelogbug>
+        <changelogtext>
+            [b]Fixed![/b] 修改在线标定粘贴点无法上传、导航图文粘贴顺序不正确、导航图文无法添加文字
+        </changelogtext>
+        <changelogtext>
+            [b]Fixed![/b] 重点抄表单个任务更新数据后未刷新统计数据
+        </changelogtext>
+        <changelogtext>
+            [b]Fixed![/b] 优化工作日志上传数据，某些数据未上传
+        </changelogtext>
+
+        <changelogtext>
+            [b]Fixed![/b] 修改开关阀删除任务时任务单元、楼栋、表组导航图文及任务单元小区平面图未删除的问题
+        </changelogtext>
+        <changelogtext>
+            [b]Fixed![/b] 修改在线标定任务单元、楼栋、表组图文备注张贴无效问题
+        </changelogtext>
+
+        <changelogtext>
+            [b]Improved![/b] 优化抄表、催费、标定 批量下载数据
+        </changelogtext>
+        <changelogtext>
+            [b]New![/b] 新增在水表详情可下载当前水表导航图文（任务单元、楼栋、表组、粘贴点、表号图、止码图）
+        </changelogtext>
+        <changelogtext>
+            [b]Improved![/b] 关于地图显示界面，可选择是否显示“当前位置”
+        </changelogtext>
+        <changelogtext>
+            [b]Improved![/b] 抄表标定由“长按”改为“双击”，在抄表标定完成后，按标定信息自动填充到抄表数据中
+        </changelogtext>
+        <changelogtext>
+            [b]Improved![/b] 工作统计界面优化，新增（特殊标记、 注意事项、联系方式、标定反馈）
+        </changelogtext>
+        <changelogtext>
+            [b]Fixed![/b] 抄表界面：取消“上次止码”、“本次止码”，“止度”改为“上次止度”，“止码”改为“本次止码”
+        </changelogtext>
+        <changelogtext>
+            [b]Removed![/b] 删除终端新增自定义特殊标记
+        </changelogtext>
+        <changelogtext>
+            [b]Improved![/b] 自拍杆式读卡器优化
+        </changelogtext>
+    </changelogversion>
+
+
+    <!-- This is Dashclock changelog (https://code.google.com/p/dashclock/wiki/Changelog), used only for test. -->
+
+    <changelogversion versionName="MRMSEI.1.21.1.180430" changeDate="2018-4-29">
+        <changelogtext>
+            [b]New![/b] 抄表、催费一键下载当前所有任务数据、图片
+        </changelogtext>
+        <changelogtext>
+            [b]New![/b] 工作日志新增 数据上传（上传当前终端所以可上传数据，每种类型可单独上传）功能
+        </changelogtext>
+        <changelogtext>
+            [b]New![/b] 新增更新日志功能，查看当前版本更新内容
+        </changelogtext>
+        <changelogtext>
+            [b]New![/b] 抄表新增止码确认操作(确认后会自动将当前止码显示在备注内)
+        </changelogtext>
+        <changelogtext> [b]New![/b]导航图文、剪切板新增一键排序功能</changelogtext>
+        <changelogtext> [b]New![/b] 坐标拾取新增 “上次坐标”功能(每次保存的坐标做为上次坐标)</changelogtext>
+        <changelogtext>
+            [b]Fixed![/b] 关阀修改：[br]
+            1、记录抄表信息 [br]
+            2、关阀原因及水表信息点击按钮显示[br]
+            3、恢复供水需知与其它业务无关系，可随时操作[br]
+            4、关阀（已关表前阀、无法关阀）无法关阀需要选择具体项目:[br]
+            表前阀处于关闭状态；[br]
+            工具不匹配；[br]
+            表前阀损坏；[br]
+            其他（需要添加备注）
+        </changelogtext>
+        <changelogtext>[b]Improved[/b] 联系方式电话号码(至少4位数字连续)点击会自动进入打电话界面</changelogtext>
+
+        <changelogtext>[b]Improved[/b] 标定，安装方式：卧式、立式、其他;最大止码显示修改为止码长度：取值4、5、6、7、8、9、10</changelogtext>
+
+        <changelogbug>[b]Fixed[/b] 地图浏览修改，通过地图浏览界面进入操作界面返回时仍会返回地图浏览</changelogbug>
+        <changelogbug>[b]Fixed[/b] 修改在线标定导航文字无法保存的BUG</changelogbug>
+        <changelogtext>[b]Fixed[/b] 人员定位修改，无法获取GPS定位时，通过网络获取定位</changelogtext>
+        <changelogtext>[b]Fixed[/b] 修改在线查询水表详情-履历-工单图片未显示</changelogtext>
+        <changelogtext>[b]Improved[/b] 优化抄表工作记录，抄表数据完整情况下由标签异常变为正常工作记录会修改</changelogtext>
+        <changelogtext>[b]Improved[/b] 剪贴板优化，剪切板拍照后，默认选中所拍照片。在图文编辑里长按剪切板即可清空剪切板内容</changelogtext>
+        <changelogtext>[b]Improved[/b] 升级百度地图SDK</changelogtext>
+        <changelogtext>[b]Removed[/b] 取消一键工单自动将水表表号图片生成工单图片</changelogtext>
+        <changelogtext>[b]Removed[/b] 取消用水告知选择类型拍照</changelogtext>
+
+    </changelogversion>
+
+
+
+
+
+
+    <!-- This is Dashclock changelog (https://code.google.com/p/dashclock/wiki/Changelog), used only for test. -->
+
+    <changelogversion versionName="MRMSEI.1.21.1.180430" changeDate="2018-06-13">
+        <changelogtext>
+            [b]New![/b] 抄表、催费一键下载当前所有任务数据、图片
+        </changelogtext>
+
+    </changelogversion>
+
+</changelog>

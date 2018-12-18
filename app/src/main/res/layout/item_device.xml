@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <import type="android.view.View" />
+        <import type="android.graphics.Color"/>
+
+        <variable
+            name="device"
+            type="com.akingyin.ireader.entity.BleDevice"/>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="3dp"
+        android:padding="2dp"
+        android:layout_margin="2dp">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:orientation="horizontal"
+    android:layout_margin="2dp"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{device.deviceName}"
+            />
+
+        <TextView
+            android:id="@+id/tv_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="8dp"
+            android:text="@{device.mac}"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_rssi"
+        android:layout_marginRight="5dp"
+        android:text='@{"RSSI:"+device.rssi}'
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:text='@{device.connectStatus==1 ? "CONNECTED" : device.connectStatus==2 ? "CONNECTING" : device.connectStatus==3 ?"CONNECTFAIL":""}'
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor='@{device.connectStatus==1 ? Color.GREEN: Color.BLACK}'
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
